@@ -63,7 +63,8 @@
               },
               empty: function(element) {
                 scope.suggestion = false;
-              }
+              },
+              topLevelDomains: ['com', 'net', 'org', 'si', 'rs', 'hr', 'mk', 'at', 'it', 'de', 'eu', 'co.uk']      
             });
           });
 
